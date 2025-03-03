@@ -11,6 +11,12 @@ const uniqueDogMessageMap: Map<string, string> = new Map([
    ["Kimba", "Hello Kimba!"],
 ]);
 
+/* 
+    Due to lack of time, I compelted the tests but did not finish cleaning the code.
+    The test cases are repetetive. 
+    If I a bit more time I would export most of the test case's code into an external async function(page, dogName) that would take care of the test's logic.
+*/
+
 test("Kika test", async ({ page }) => {
    const dogName: string = "Kika";
    await page.goto(url);
