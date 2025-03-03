@@ -1,5 +1,6 @@
 .env
 .history
+notes.txt
 
 # Playwright
 node_modules/
